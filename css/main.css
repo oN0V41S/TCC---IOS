@@ -1,0 +1,25 @@
+main{
+    height: 100vh;
+}
+.floatImgs{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+.floatImg{
+    transform: translateX(0px);
+    animation: float 9s ease-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

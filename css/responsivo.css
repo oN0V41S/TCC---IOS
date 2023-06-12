@@ -1,0 +1,46 @@
+
+/* Smartphone Responsive  */
+@media(max-width: 400px){
+    /* Header responsivo */
+   body{
+    width: 100%;
+   }
+   nav{
+
+   }
+  footer {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+  }
+
+  footer section{
+      /* Footer section size  */
+      width: 80px;
+      margin: auto;
+      margin-top: 9%;
+  }
+  footer section img{
+      /* Footer Icon responsive */
+      width: 64px;
+  }
+}
+
+/* Desktop Responsive  */
+@media(max-width: 1700px){
+
+  footer{
+      display: flex;
+  }
+
+  footer section{
+      /* Footer section size  */
+      width: 200px;
+  }
+  footer section img{
+      /* Footer Icon responsive */
+      width: 28px;
+      position: relative;
+  }
+}

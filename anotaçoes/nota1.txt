@@ -1,0 +1,12 @@
+Layout
+Criar sobre nós (Roger)
+Criar rodapé (Rafa)
+Criar Página do Catálogo
+Criar Página de roupa ?
+Criar carrinho de compra (com sobreposição)
+
+
+Responsivo
+- Arrumar o header ( Menu, campo de busca)
+    - Adicionar Botão de navegação e Lupa Responsiva
+    
