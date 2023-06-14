@@ -1,12 +1,14 @@
 Layout
 Criar sobre nós (Roger)
-Criar rodapé (Rafa)
-Criar Página do Catálogo
+Criar Página do Catálogo(Rafael)
 Criar Página de roupa ?
 Criar carrinho de compra (com sobreposição)
+Dash board no Menu mostrando conteudos
+Sobreposição de Login
+Fazer Dash com produtos na Página Home sobre o Catálogo
 
+    Sobre Nós
+        Quem somos?
+        Por que?
 
-Responsivo
-- Arrumar o header ( Menu, campo de busca)
-    - Adicionar Botão de navegação e Lupa Responsiva
     
