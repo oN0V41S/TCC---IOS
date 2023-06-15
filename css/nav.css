@@ -1,0 +1,25 @@
+nav{
+    background-color: #d2d0d0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu-top{
+    color: black;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+.menu-top:hover{
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
+    box-shadow: 2px 3px 4px black;
+    border: 1px solid black;
+}
+;
+/* categoria  */

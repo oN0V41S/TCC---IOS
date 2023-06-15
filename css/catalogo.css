@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo{
+    margin: 5%;
+    display: flex;
+
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+}
+
+.lista li{
+    margin-left: 10%;
+}
+
+.filtro{
+    margin-left: 5%;
+    margin-top: 4%;
+    user-select: none;
+}
+.filtro input{
+    user-select: none;
+    border-radius: 5px;
+    border: 2px solid rgba(103, 103, 103, 0.398);
+    padding: 8px;
+}
+.filtro input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
