@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -9,33 +14,43 @@ main{
     flex-direction: column;
 }
 
-.catalogo{
-    margin: 5%;
-    display: flex;
+.catNav h1{
+    text-align: center;
+}
 
+.catNav{
+    background-color: grey;
+    display: flex;
+    padding: 2%;
+    gap: 10px;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}.catNav div{
+    margin-left: 5%;
+}
+
+.catList{
+    display: none;
+    list-style: none;
+}.catNav a{
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+}
+.catList ul{
+    transition: 0.9s;
 }
 
 .lista{
     list-style: none;
     display: flex;
+    margin: auto 5% auto 5%;
+    gap: 15%;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 
-.lista li{
-    margin-left: 10%;
-}
-
-.filtro{
-    margin-left: 5%;
-    margin-top: 4%;
-    user-select: none;
-}
-.filtro input{
-    user-select: none;
-    border-radius: 5px;
-    border: 2px solid rgba(103, 103, 103, 0.398);
-    padding: 8px;
-}
-.filtro input:focus{
-    box-shadow: 0 0 0 0;
-    outline: 0;
+.catalogo{
+    padding-top: 5%;
 }
