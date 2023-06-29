@@ -1,0 +1,22 @@
+.categoriaMENU{
+ display: flex;
+ margin: auto;
+ gap: 20px;
+}
+.text-categoria{
+  font-size: 17px;
+  background: none;
+  border: none;
+  color: black;
+}
+.text-categoria:hover{
+   background-color: transparent;
+   color:var(--cordefundo);
+   
+}
+.dropdown-menu{
+ background-color: rgb(150, 147, 147);
+}
+.dropdown-menu-end{
+  color: #000000;
+}

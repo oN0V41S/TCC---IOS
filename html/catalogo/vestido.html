@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Blusas</title>
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/catalogo/catalogo.css">
+    <link rel="stylesheet" href="../../css/cards.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/header.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/login.css">
+    <link rel="stylesheet" href="../../css/nav.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/login.css">
+    <link rel="stylesheet" href="../../css/responsivo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+</head>
+<body onload="Fixed()">
+    <div id="header" class="sidebar">
+
+        <header>
+          <div class="logo">
+              <img src="../../img/logo da loja.jpeg" alt="" class="imglogo">
+          </div>
+             <div class="nav">
+                  <button class="navinfo1 navinfo">Catálogo</button>
+                 <button class="navinfo2 navinfo"><a href="html/sobre.html" class="sobrenos">Sobre</a></button>
+                 <button class="navinfo3 navinfo">Contato</button> 
+                 <button class="navinfo4 navinfo">
+                   
+                                   <div class="cadastro-do-site">
+                                     <div class="login-do-site">
+                                         <button class="login" onclick="LOGIN()" id="login-bottom"><img src="img/header/icons8-avatar-50.png" alt="" width="30px"></button>
+                                     </div>
+                                     
+                                     <div class="formulario1" id="formulariodosite">
+                                         
+                                         <form class="form1">
+                                             <button class="close-cadastro">X</button>
+                                               <p class="form-titulo">Entrar com e-mail e senha</p>
+                             
+                                                 <div class="boxinputCadastro">
+                                                     <input  class="form-caixa" id="email" type="text" placeholder="Digite seu E-mail">
+                                                                     
+                                                     <input type="password" class="form-caixa botaodeocultar" id="senha" placeholder="Digite sua Senha">
+                                                 </div>
+                                             <div class="box-preenchimento-da-senha">
+                                                 <p id="preenchimento-da-senha" class="preenchimento-da-senha">Preencha todos os campos*</p>
+                             
+                                             </div>
+                                         
+                             
+                                             <div class="box-botaoDeSucesso">
+                                                 <button class="botaoDeSucesso"  onclick="CADASTRO()" id="botaoenviar" type="button">Entrar</button>
+                                             </div>
+                             
+                                         </form>
+                                     </div>
+                                 </div>
+                                 <div class="cadastro-concluido" id="cadastroConcluido">
+                                     <p class="tituloDocadastro">Registre-se</p>
+                                     <p class="tituloDocadastropequeno">Venha fazer parte da Camila modas</p>
+                                     <div class="boxinputCadastro">
+                                 
+                                         <input type="text" class="inputDocasdastro" placeholder="Nome" id="nomeDoperfil">
+                                         <input type="text" class="inputDocasdastro" placeholder="Sobrenome">
+                                         <input type="text" class="inputDocasdastro" placeholder="E-mail" id="emailDoperfil">
+                                         <input type="password" class="inputDocasdastro botaodeocultar" placeholder="Senha">
+                                     </div>
+                             
+                                     <div class="box-botaoDeSucesso">
+                                         <a href="html/PIcomLogin.html"  class="botaoDeSucesso">Criar conta</a>
+                                     </div>
+                                 </div>
+                    </div>
+                 </button>  
+      
+        
+        </header>
+      
+        <nav>
+            <div class="menu">
+                <button class="btn btn-primary menu-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">☰</button>
+                    
+                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas-header">
+                        <h1>Camilla modas</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                                <button class="navinfo1-menu navinfo-menu">Catálogo</button>
+                                <button class="navinfo2 navinfo"><a href="html/sobre.html" class="sobrenosMenu">Sobre</a></button>
+                                <button class="navinfo3-menu navinfo-menu">Contato</button>
+                                <button class="navinfo4-login navinfo">
+                    
+                                    <div class="cadastro-do-siteMenu">
+                                    <div class="login-do-site">
+                                        <button class="login" onclick="LOGIN2()" id="login-bottom2"><img src="img/header/icons8-avatar-50.png" alt="" width="30px"></button>
+                                    </div>
+                                    
+                                    <div class="formulario2" id="formulariodosite2">
+                                        
+                                        <form class="form2">
+                                            <button class="close-cadastro">X</button>
+                                                <p class="form-titulo">Entrar com e-mail e senha</p>
+                            
+                                                <div class="boxinputCadastro">
+                                                    <input  class="form-caixa" id="email2" type="text" placeholder="Digite seu E-mail">
+                                                                    
+                                                    <input type="password" class="form-caixa botaodeocultar" id="senha2" placeholder="Digite sua Senha">
+                                                </div>
+                                            <div class="box-preenchimento-da-senha">
+                                                <p id="preenchimento-da-senha2" class="preenchimento-da-senha">Preencha todos os campos*</p>
+                            
+                                            </div>
+                                        
+                            
+                                            <div class="box-botaoDeSucesso">
+                                                <button class="botaoDeSucesso"  onclick="CADASTRO2()" id="botaoenviar2" type="button">Entrar</button>
+                                            </div>
+                            
+                                        </form>
+                                    </div>
+                                    <div class="cadastro-concluido2" id="cadastroConcluido2">
+                                        <p class="tituloDocadastro">Registre-se</p>
+                                        <p class="tituloDocadastropequeno">Venha fazer parte da Camila modas</p>
+                                        <div class="boxinputCadastro">
+                                        
+                                        <input type="text" class="inputDocasdastro" placeholder="Nome">
+                                        <input type="text" class="inputDocasdastro" placeholder="Sobrenome">
+                                        <input type="text" class="inputDocasdastro" placeholder="E-mail">
+                                        <input type="password" class="inputDocasdastro botaodeocultar" placeholder="Senha">
+                                        </div>
+                                        
+                                        <div class="box-botaoDeSucesso">
+                                        <a href="html/PIcomLogin.html"  class="botaoDeSucesso">Criar conta</a>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </button>  
+                                </div>
+                                </div>
+            </div>                
+        </nav>
+    </div>
+
+    <nav class="catNav" style="display: flex;">
+        <div style="display: flex;margin: 0;">
+            <div id="catBlusa" class="cat">
+                <a href="blusas.html">Blusas</a>
+            </div>
+            <div id="catSobretudo" class="cat">
+                <a href="./sobretudo.html">Sobretudo</a>
+            </div>
+            <div id="catVestido" class="cat">
+                <a href="./vestido.html">Vestido</a>
+            </div>
+        </div>
+        <div style="display: flex;margin: 0;" >
+            <div id="catBlazer" class="cat">
+                <a href="./blazer.html">Blazer</a>
+            </div>
+            <div id="catConjunto" class="cat">
+                <a href="./conjunto.html">Conjunto</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main>
+        <div class="menu">
+            <button class="btn btn-primary menu-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">☰</button>
+                
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                    <h1>Camilla modas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                               <button class="navinfo1-menu navinfo-menu">Catálogo</button>
+                               <button class="navinfo2 navinfo"><a href="html/sobre.html" class="sobrenosMenu">Sobre</a></button>
+                               <button class="navinfo3-menu navinfo-menu">Contato</button>
+                               <button class="navinfo4-login navinfo">
+                   
+                                <div class="cadastro-do-siteMenu">
+                                  <div class="login-do-site">
+                                      <button class="login" onclick="LOGIN2()" id="login-bottom2"><img src="../../img/header/icons8-avatar-50.png" alt="" width="30px"></button>
+                                  </div>
+                                  
+                                  <div class="formulario2" id="formulariodosite2">
+                                      
+                                      <form class="form2">
+                                          <button class="close-cadastro">X</button>
+                                            <p class="form-titulo">Entrar com e-mail e senha</p>
+                          
+                                              <div class="boxinputCadastro">
+                                                  <input  class="form-caixa" id="email2" type="text" placeholder="Digite seu E-mail">
+                                                                  
+                                                  <input type="password" class="form-caixa botaodeocultar" id="senha2" placeholder="Digite sua Senha">
+                                              </div>
+                                          <div class="box-preenchimento-da-senha">
+                                              <p id="preenchimento-da-senha2" class="preenchimento-da-senha">Preencha todos os campos*</p>
+                          
+                                          </div>
+                                      
+                          
+                                          <div class="box-botaoDeSucesso">
+                                              <button class="botaoDeSucesso"  onclick="CADASTRO2()" id="botaoenviar2" type="button">Entrar</button>
+                                          </div>
+                          
+                                      </form>
+                                  </div>
+                                  <div class="cadastro-concluido2" id="cadastroConcluido2">
+                                    <p class="tituloDocadastro">Registre-se</p>
+                                    <p class="tituloDocadastropequeno">Venha fazer parte da Camila modas</p>
+                                    <div class="boxinputCadastro">
+                                      
+                                      <input type="text" class="inputDocasdastro" placeholder="Nome">
+                                      <input type="text" class="inputDocasdastro" placeholder="Sobrenome">
+                                      <input type="text" class="inputDocasdastro" placeholder="E-mail">
+                                      <input type="password" class="inputDocasdastro botaodeocultar" placeholder="Senha">
+                                    </div>
+                                    
+                                    <div class="box-botaoDeSucesso">
+                                      <a href="html/PIcomLogin.html"  class="botaoDeSucesso">Criar conta</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </button>  
+                            </div>
+                            </div>
+        </div>  
+
+        <nav class="catNav">
+                    <div id="catBlusa" class="cat">
+                        <a href="./blusas.html">Blusas</a>
+                    </div>
+                    <div id="catSobretudo" class="cat">
+                        <a href="./sobretudo.html">Sobretudo</a>
+                    </div>
+                    <div id="catVestido" class="cat">
+                        <a href="./vestido.html" style="color: var(--cordefundo)">Vestido</a>
+                    </div>
+                    <div id="catBlazer" class="cat">
+                        <a href="./blazer.html">Blazer</a>
+                    </div>
+                    <div id="catConjunto" class="cat">
+                        <a href="./conjunto.html">Conjunto</a>
+                    </div>
+        </nav>
+
+
+        <section  class="catalogo">
+            <ul id="lista" class="lista">
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido1.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido2.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido3.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+
+
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="../../javascript/navCat.js"></script>
+</body>
+</html>
