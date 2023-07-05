@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.catNav h1{
+    text-align: center;
+}
+
+.catNav{
+    background-color: grey;
+    display: flex;
+    padding: 2%;
+    gap: 20px;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}.catNav div{
+    margin-left: 5%;
+}
+
+.catList{
+    display: none;
+    list-style: none;
+}.catList a{
+    text-decoration: none;
+    color: white;
+    line-height: 20px;
+}
+
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalogo{
+    padding-top: 5%;
+}

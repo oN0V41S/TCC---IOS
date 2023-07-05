@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: rgb(255, 255, 255);
+    --fonteTitle:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --fonteTexto:monospace;
+    --cordefundo:#cb4ed6;
+    --fundo:  linear-gradient (to left, #313131,#676767);
+}
+body{
+    background-color: #eaeaea;
+    box-sizing: border-box;
+    margin: 0;
+    color: var(--color);
+}
+.borda{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.borda2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Vestido</title>
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <!-- CSS próprio -->
+    <link rel="shortcut icon" href="../../img/logo da loja.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../../css/cabeçalho/header.css">
+    <link rel="stylesheet" href="../../css/catalogoCSS/catalogo.css">
+    <link rel="stylesheet" href="../../css/cards.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/login.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/login.css">
+    <link rel="stylesheet" href="../../css/home/nav.css">
+    <link rel="stylesheet" href="../../css/responsivo.css">
+    <link rel="stylesheet" href="../../css/catalogoCSS/blusa.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/categoria.css">
+    <link rel="stylesheet" href="../../css/home/main.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link rel="stylesheet" href="../../css/cabeçalho/sidebar.css">
+
+
+
+</head>
+<body onload="Fixed()">
+    <div class="sidebar" id="header">
+
+        <header>
+          <div class="logo">
+              <img src="../../img/logo da loja.jpeg" alt="" class="imglogo">
+          </div>
+    
+             <div class="nav">
+                  <button class="navinfo1 navinfo"> <a href="../../index.html" class="sobrenos">Inicial</a></button>
+                 <button class="navinfo2 navinfo"><a href="../sobre.html" class="sobrenos">Sobre</a></button>
+            </div>
+            <div class="menu">
+        
+              <button class="btn btn-primary menu-top" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">☰</button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                  <div class="offcanvas-header">
+                    <h1>Camila modas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                                 
+                           <a href="../../index.html" class="sobrenosMenu">Inicial</a>
+                           <a href="../sobre.html" class="sobrenosMenu">Sobre</a>
+
+                           <button class="navinfo4-login navinfo" style="width: 80px;">                 
+                            <div class="cadastro-do-siteMenu">
+                              <div class="login-do-site">
+                                  <button class="login" onclick="LOGIN2()" id="login-bottom2"><img src="../../img/header/icons8-user-96.png" alt="" width="30px"></button>
+                              </div>
+                              
+                              <div class="formulario2" id="formulariodosite2">
+                                  
+                                  <form class="form2">
+                                      <button class="close-cadastro">X</button>
+                                        <p class="form-titulo">Entrar com e-mail e senha</p>
+                      
+                                          <div class="boxinputCadastro">
+                                              <input  class="form-caixa" id="email2" type="text" placeholder="Digite seu E-mail">
+                                                              
+                                              <input type="password" class="form-caixa botaodeocultar" id="senha2" placeholder="Digite sua Senha">
+                                          </div>
+                                      <div class="box-preenchimento-da-senha">
+                                          <p id="preenchimento-da-senha2" class="preenchimento-da-senha">Preencha todos os campos*</p>
+                      
+                                      </div>
+                                  
+                      
+                                      <div class="box-botaoDeSucesso">
+                                          <button class="botaoDeSucesso"  onclick="CADASTRO2()" id="botaoenviar2" type="button">Entrar</button>
+                                      </div>
+                      
+                                  </form>
+                              </div>
+                              <!-- <div class="cadastro-concluido2" id="cadastroConcluido2">
+                                <p class="tituloDocadastro">Registre-se</p>
+                                <p class="tituloDocadastropequeno">Venha fazer parte da Camila modas</p>
+                                <div class="boxinputCadastro">
+                                  
+                                  <input type="text" class="inputDocasdastro" placeholder="Nome">
+                                  <input type="text" class="inputDocasdastro" placeholder="Sobrenome">
+                                  <input type="text" class="inputDocasdastro" placeholder="E-mail">
+                                  <input type="password" class="inputDocasdastro botaodeocultar" placeholder="Senha">
+                                </div>
+                                
+                                <div class="box-botaoDeSucesso">
+                                  <a href=""  class="botaoDeSucesso">Criar conta</a>
+                                </div>
+                              </div> -->
+                            </div>
+                          </button> 
+                            </div>
+                            </div>
+          </div>
+      
+        
+        </header>
+      
+    </div>
+
+    <main>
+ 
+
+                <nav class="catNav">
+                    <div id="catBlusa" class="cat">
+                        <a href="catalogo.html"><img src="../../img/volte.png" alt="" width="30px" style="margin-top: -5px;"></a>
+                    </div>
+                    <div id="catBlusa" class="cat">
+                        <a href="./blusas.html">Blusas</a>
+                    </div>
+                    <div id="catSobretudo" class="cat">
+                        <a href="./sobretudo.html">Sobretudo</a>
+                    </div>
+                    <div id="catVestido" class="cat">
+                        <a href="./vestido.html" style="color: black">Vestido</a>
+                    </div>
+                    <div id="catBlazer" class="cat">
+                        <a href="./blazer.html">Blazer</a>
+                    </div>
+                    <div id="catConjunto" class="cat">
+                        <a href="./conjunto.html">Conjunto</a>
+                    </div>
+                </nav>
+
+
+        <section  class="catalogo">
+            <ul id="lista" class="lista">
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido1.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido2.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li  id="vestido">
+                    <div class="card-cat">
+                        <div class="card-img"> 
+                            <img src="../../img/img-catalogo/vestido3.jfif" alt="">
+                        </div>
+                        <div class="card-desc" style="text-align: center;margin-bottom: 5%;">
+                            <div class="card-title">Sobretudo</div>
+                            <div class="card-sub-title">Cores e Tamanhos a Consultar</div>
+                        </div>
+                        <div class="card-line"></div>
+                        <div class="card-info" style="display: flex;align-items: center;">
+                            <div class="card-price" style="width: 50%; font-size: 28px;">R$ 210</div>
+                            <div class="card-shop" style="width: 50%;">
+                                <img src="../../img/img-catalogo/icons8-carrinho-96.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
+
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__addr">
+          <h1 class="footer__logo">Camila modas</h1>
+              
+  
+                
+          
+        </div>
+        
+        <ul class="footer__nav">
+
+          <li class="nav__item">
+            <h2 class="nav__title">Institucional</h2>
+            
+            <ul class="nav__ul">
+            </li>
+              
+        
+              
+              <li>
+                <a href="#">Catálogo</a>
+              </li>
+              
+              <li>
+                <a href="#">Galeria</a>
+              </li>
+              
+              <li>
+                <a href="../html/sobre.html">Sobre a loja</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Formas de pagamento</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Cartão de crédito</a>
+              </li>
+              
+              <li>
+                <a href="#">Pix</a>
+              </li>
+              
+           
+            </ul>
+          </li>
+          
+          <li class="nav__item">
+            <h2 class="nav__title">Nossas redes sociais</h2>
+            
+            <ul class="nav__ul">
+              <li>
+                <a href="#"><img src="../../img/header/icons8-whatsapp-480.png" alt="" width="25px" style="margin-right: 5px;">Whatsapp</a>
+              </li>
+              
+              <li>
+                <a href="https://www.instagram.com/cah.milimodas/"> <img src="../../img/header/icons8-instagram-96.png" alt="" width="25px" style="margin-right: 5px;">Instragram</a>
+              </li>
+              
+              
+            </ul>
+          </li>
+        </ul>
+         <div style="display: flex; justify-content: end;">
+           <a class="footer__btn" href="#"><img src="../../img/volte..branco.png" alt="" width="25px"></a>
+          </div>
+          <p>&copy; 2023 Camila modas. Todos os direitos reservados.
+          </p>
+          
+          
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="../../javascript/navCat.js"></script>
+</body>
+</html>

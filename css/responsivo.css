@@ -1,0 +1,232 @@
+
+/* Smartphone Responsive  */
+/* Smartphone Responsive  */
+@media(max-width: 420px){
+  header{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+       width: 100%;
+       height: 13vh;
+  }
+  .nav{
+      display: none;
+  }
+  .logoCamilamoda{
+      height: 70vh;
+      width: 100%;
+      background-position: center;
+      background-image: url(../img/logo\ da\ loja.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .carrosselDeRoupas{
+      display: none;
+  }
+  .boxGaleria{
+      width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .slogan{
+      margin: auto;
+      width: 300px;
+      height: 60vh;
+  }
+  .carrosselDeRoupas2{
+      width: auto!important;
+      height: 60vh;
+      border-radius: 30px;
+  
+  }
+  .navegacaoManual2{
+    margin-left: -60px;
+  }
+  .slides2{
+      width:100%;
+    height: 300px;
+    display: flex;
+  }
+  .produtosM{
+    width: 100%;
+    text-align: center;
+  }
+  .cincoProdutos{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+  }
+  .card-cat{
+      width: auto;
+  }
+  .produtoUM,.produtoDOIS,.produtoTRES{
+      width: 320px;
+      margin: 0;
+      margin-left: 10px;
+  }
+  .COMENTARIO{
+      height: 600px;
+  }
+  .comentariodiv{
+      padding: 70px !important;
+      display: flex;
+      flex-direction: column;
+  }
+  .formResponsivo{
+      display: flex !important;
+      flex-direction: column !important;
+      height: 110% !important;
+  }
+  .formResponsivo h1{
+    width: 300px;
+    margin: 0px;
+  }
+  .formResponsivo img{
+      height: 300px;
+      margin-left: -20px;
+  }
+  textarea{
+      width: 200px;
+  }
+  #FEEDBACKENVIADO{
+      margin: auto;
+      width: 200px !important;
+      display: flex;
+      flex-direction: column;
+  }
+  #FEEDBACKENVIADO2 img{
+      height: 100px !important;
+  }
+
+
+  #FEEDBACKENVIADO2{
+      margin: auto;
+  }
+  .footer{
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 10px !important;
+  }
+
+  .footer ul{
+    gap: 0px;
+  }
+
+  .nav__title{
+      margin-bottom: 0px !important;
+  }
+  .footer__nav{
+      display: flex !important;
+      flex-direction: column-reverse !important;
+      gap: 0px;
+  }
+  .sobretituloresponsivoPRINCIPAL{
+      width: 100% !important;
+  }
+  .sobretituloresponsivo{
+      width: 300px !important;
+      text-shadow: 5px 5px 10px #040404;
+      padding: 50px !important;
+  }
+  .apresentacao{
+      height: 1500px !important;
+  }
+  .PrimeiraBox{
+    display: none;
+  }
+  .SegundaBox{
+      width: 300px !important;
+      height: 1400px;
+  }
+  .quemSomos{
+      height: 1200px;
+  }
+  .quemSomos-boxDois{
+      height: 800px !important;
+  }
+  .quemSomos-boxUm{
+      width: 200px !important;
+  }
+  .quemSomos-boxUm:hover{
+      width: 200px !important;
+      height: 700px !important;
+  }
+
+  body .lista{
+    display: flex;
+    flex-direction: column;
+  }
+  body .lista .card-img{
+    width: 220px;
+  }
+
+  .form-home .Form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-home .Form img{
+    display: block;
+    width: 280px;
+    margin: auto;
+  }
+
+  #FEEDBACKENVIADO2 img{
+    width: 90%;
+    margin: auto;
+    margin-left: 0;
+  }
+
+  #FEEDBACKENVIADO input{
+    width: 90%;
+  }
+
+  .MissaoVisaoValores div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .MissaoVisaoValores div img{
+    width: 80%;
+    margin: auto;
+  }
+
+         /* Catalogo */
+      body .catNav{
+        width: 100%;
+        font-size: 8px;
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+        margin-top: 13vh;
+        padding-top: 38px;
+       }
+      body .catalogo .card-cat{
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4vh;
+     }body .catalogo .lista{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+      }
+      body .cardcat .card-img{
+        margin: auto;
+      }
+      body .informacaoDoCatalogoICONS{
+        display: flex;
+        flex-direction: column;
+    }
+    body article{
+        width: 200px;
+        margin: auto;
+        margin-bottom: 25vh;
+        margin-top: 40vh;
+        margin-bottom: 40vh;
+      }
+    }
+
+
+  

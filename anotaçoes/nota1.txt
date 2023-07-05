@@ -1,0 +1,7 @@
+deixar responsivo
+
+fazer um formulario
+
+fazer um carrinho de compra
+
+fazer o footer
